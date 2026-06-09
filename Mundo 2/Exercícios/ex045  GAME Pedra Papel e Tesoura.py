@@ -1,3 +1,7 @@
+"""
+Crie um programa que faça o computador jogar Jokenpô com você.
+"""
+
 import random
 jogador = int(input('''
 SUAS OPÇÕES:
