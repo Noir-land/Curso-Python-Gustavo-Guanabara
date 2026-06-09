@@ -1,3 +1,8 @@
+"""
+Faça um algoritmo que leia o preço de um produto e 
+mostre seu novo preço, com 5% de desconto
+"""
+
 p = float(input("Quantos % de desconto deseja aplicar ao produto ? "))
 v = float(input("Qual o valor do produto ? R$"))
 r = p/100 * v
