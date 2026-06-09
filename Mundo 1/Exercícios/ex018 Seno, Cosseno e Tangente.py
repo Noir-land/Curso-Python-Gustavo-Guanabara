@@ -1,3 +1,8 @@
+"""
+Desafio 18: Faça um programa que leia um ângulo qualquer e 
+mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+"""
+
 import math
 num = float(input("Coloque um numero que deseja saber os angulos: "))
 r1 = math.cos(math.radians(num))
