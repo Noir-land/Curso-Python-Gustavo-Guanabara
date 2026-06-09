@@ -1,3 +1,8 @@
+"""
+Faça um algoritmo que leia o salário de um funcionário e
+mostre seu novo salário, com 15% de aumento
+"""
+
 p = float(input("Coloque o numero referente a % para o aumento:"))
 s = float(input('Digite seu salario atual:R$ '))
 r = p/100*s
