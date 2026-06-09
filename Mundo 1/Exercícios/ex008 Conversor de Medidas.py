@@ -1,3 +1,7 @@
+"""
+Escreva um programa que leia um valor em metros 
+e o exiba convertido em centímetros e milímetros
+"""
 n = float(input("Coloque quantos metros: "))
 dm = n * 10
 cm = n * 100
