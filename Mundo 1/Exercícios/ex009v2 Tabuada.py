@@ -1,3 +1,7 @@
+"""
+# Faça um programa que leia um número inteiro qualquer e 
+mostre na tela a sua tabuada
+"""
 
 n = (int(input("Digite um numero: ")))
 print('\033[1;30m-=-\033[m'*5)
