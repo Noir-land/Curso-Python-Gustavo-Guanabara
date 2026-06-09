@@ -1,3 +1,7 @@
+"""Refaça o desafio 009, mostrando a tabuada de um número
+que o usuário escolher, só que agora utilizando um laço for
+"""
+
 print("~"*20)
 n = int(input("Digite o multiplicador: "))
 print("~"*15)
