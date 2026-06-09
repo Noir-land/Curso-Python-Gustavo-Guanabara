@@ -3,9 +3,9 @@ de uma PA (Progressão Aritmética).
 No final, mostre os 10 primeiros termos dessa progressão.
 """
 
-ini = int(input("Digite o primeiro termo: "))
+prim = int(input("Digite o primeiro termo: "))
 raz = int(input("Razão: "))
-dt = ini + (10-1) * raz
-for c in range(ini, dt+raz, raz):
+dt = prim + (10-1) * raz
+for c in range(prim, dt+raz, raz):
     print(f"{c}", end=">>")
 print("Acabou")
