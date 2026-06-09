@@ -1,3 +1,8 @@
+"""
+Faça um programa em Python que 
+abra e reproduza um arquivo .mp3
+"""
+
 import pygame
 
 n = (input("Pressione qualquer [SIM] par executar a musica: ")).upper()
