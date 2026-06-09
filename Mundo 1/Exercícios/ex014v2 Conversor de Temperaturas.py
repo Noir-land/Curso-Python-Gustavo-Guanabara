@@ -1,6 +1,7 @@
 """
-Conversor de temperaturas: escreva um programa 
-que converta uma temperatura digitada em ºC para ºF
+Conversor de temperaturas: 
+escreva um programa que converta uma 
+temperatura digitada em ºC para ºF
 """
 
 t = float(input("Converter Fahrenheit para Celsius: "))
