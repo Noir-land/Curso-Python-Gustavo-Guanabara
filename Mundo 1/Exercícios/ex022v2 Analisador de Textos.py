@@ -1,0 +1,6 @@
+txt = str(input("Digite algo: ")).strip()
+print("Em letras maiuscular:{}:".format(txt.upper()))
+print("Em letras minusculas:{} ".format(txt.lower()))
+print("Existem {} letras".format(len(txt) - txt.count(" ")))
+s = txt.split()
+print("O nome {} tem {} letras".format(s[0], len(s[0])))

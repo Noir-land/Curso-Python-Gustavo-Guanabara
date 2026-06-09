@@ -1,0 +1,8 @@
+txt = input('Digite algo: ')
+print("Tem numero ou Letra ?", (txt).isalnum())
+print("Tem letra ? ", (txt).isalpha())
+# print((txt).isascii())
+print('É um numero ?', (txt.isnumeric()))
+print("É somente minuscula ? ", (txt).islower())
+print('É somente maiúscula ? ', (txt).isupper())
+print('É capitalizado ?', (txt).istitle())
