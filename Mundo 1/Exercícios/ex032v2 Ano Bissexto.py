@@ -1,3 +1,7 @@
+"""
+Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO
+"""
+
 '''ano = int(input("Digite um ano e contenha a resposta se ele é ou não Bissexto: "))
 if  ano % 4 == 0: #para nos não multiplo de 100 e não são multiplos de 400: ano 1700 não é bissexto mas é respondido que sim
     print(f"O {ano} é Bissexto.")
