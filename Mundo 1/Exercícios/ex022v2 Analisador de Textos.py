@@ -1,3 +1,7 @@
+"""
+Crie um programa que leia o nome completo de uma pessoa:
+"""
+
 txt = str(input("Digite algo: ")).strip()
 print("Em letras maiuscular:{}:".format(txt.upper()))
 print("Em letras minusculas:{} ".format(txt.lower()))
