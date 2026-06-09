@@ -1,3 +1,9 @@
+"""
+Faça um programa que mostre a tabuada de vários números,
+um de cada vez, para cada valor digitado pelo usuário.
+O programa será interrompido quando o número solicitado for negativo
+"""
+
 con = 1
 while True:
     num = int(input("Digite o numero da Tabuada"))
