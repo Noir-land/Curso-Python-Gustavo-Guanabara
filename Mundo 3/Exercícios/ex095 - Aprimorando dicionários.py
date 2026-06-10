@@ -33,17 +33,20 @@ while True:
     while True:
         opc = input('Qual jogador deseja visualizar? [999 para sair] ')
         if not opc.isdigit():
-            print(f'ERRO! Digite apenas números de 0 a {len(Jogadores)}.')
+            print(f'ERRO! Digite apenas números de 0 a {len(Jogadores)-1}.')
             continue
         opc = int(opc)
+        if opc > len(Jogadores)-1 and opc != 999:
+            print(f'ERRO! Digite apenas números de 0 a {len(Jogadores)-1}.')
+            continue
         if opc == 999 or 0 <= opc <= len(Jogadores):
             break
     print('-='*20)
-    print(f'==>O levantamento do jogador {Jogadores[opc]['Nome']}')
-    for i, v in enumerate(Jogadores):
-        for i, n in enumerate(gols):
-            print(f'=> Na {i+1}º partida, marcou {n} gols.')
-        print(f'=>Foi um total de {tot_gols} gols.')
+    if opc <= len(Jogadores):
+        print(f'==>O levantamento do jogador {Jogadores[opc]['Nome']}')
+        for i, v in enumerate(Jogadores):
+            for i, n in enumerate(gols):
+                print(f'=> Na {i+1}º partida, marcou {n} gols.')
+            print(f'=> Foi feito um total de {tot_gols} gols.')
     if opc == 999:
-        break
-        
+        break        
