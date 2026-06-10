@@ -17,8 +17,11 @@ while True:
     Jogador['Gols'] = gols[:]
     Jogador['Gols Totais'] = tot_gols
     Jogadores.append(Jogador.copy())
-
-    resp = str(input('Deseja continuar?[S/N]').strip().capitalize())
+    while True:
+        resp = str(input('Deseja continuar?[S/N]').strip().capitalize())
+        if resp in 'SN':
+            break
+        print('Responda com S e N.')
     if resp[0] == 'N':
         break
 print('--'*20)
