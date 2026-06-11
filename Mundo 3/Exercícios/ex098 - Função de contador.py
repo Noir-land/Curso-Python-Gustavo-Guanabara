@@ -18,32 +18,20 @@ def contador(inicio, fim, passo):
     if passo == '0':
         if '-' in fim[0] or '0' in fim[0]:
             passo = '1'
-    print(f'Em ordem de {inicio} até {fim} seguindo de {passo} em {passo}')
-    passo = '-'+passo
+    
+    print(f'Em ordem de {inicio} até {fim} seguindo de {passo.replace('-','')} em {passo.replace('-', '')}')
+    
     if '-' in passo[0] or '-' in fim[0] or fim == '0':
         passo = int(passo)
         fim = int(fim)
         for n in range(inicio, fim-1, passo):
-            print(f'{n}', end=' ')
+            print(f'{n}', end=' ', flush=True)
     else:
         passo = int(passo)
         fim = int(fim)
         for n in range(inicio, fim+1, passo):
-            print(f'{n}', end=' ')
-    print('Fim!')
-
-
-def contador_1_10(inicio, fim, passo):
-    print(f'Em ordem de {inicio} até {fim} seguindo de {passo} em {passo}')
-    for n in range(inicio, fim+1, passo):
-        print(n, end=' ')
-    print('Fim!')
-
-
-def contador_10_0_2(inicio, fim, passo):
-    print(f'Em ordem de {inicio} até {fim} seguindo de {passo} em {passo}')
-    for n in range(inicio, fim+1, passo):
-        print(n, end=' ')
+            print(f'{n}', end=' ', flush=True)
+            sleep(0.2)
     print('Fim!')
 
 
