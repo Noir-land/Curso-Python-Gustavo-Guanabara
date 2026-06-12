@@ -28,11 +28,11 @@ def somaPar(lista):
 
 def sorteando(lista):
     sorteado = sample(range(1, 100), 5)
+    lista.append(sorteado)
     print(f'Os números sortados foram: ',end='')
     for n in sorteado:
         print(n, end=' ')
     print()
-    return lista.append(sorteado)
 
 lista_de_numeros = list()
 sorteando(lista_de_numeros)
