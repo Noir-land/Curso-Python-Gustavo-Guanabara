@@ -4,7 +4,7 @@ Adapte o código do desafio 107, criando uma função adicional chamada 'moeda()
 """
 
 
-from utilitariosCV_exercicio_110 import  Moeda,cabecalho
+import  Moeda
 
 
 valor = int(input('Digite um valor: '))
