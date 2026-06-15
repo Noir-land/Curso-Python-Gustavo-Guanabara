@@ -1,5 +1,5 @@
 def moeda(msg):
-    return f'R${msg:.2f}'
+    return f'R${msg:.2f}'.replace('.',',')
 
 
 def aumentar(msg, sit=False):
