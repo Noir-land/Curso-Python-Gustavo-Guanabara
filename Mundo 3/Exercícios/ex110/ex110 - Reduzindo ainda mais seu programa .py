@@ -3,7 +3,7 @@ Adicione ao módulo moeda.py, criado nos exercícios anteriores, uma função ch
 """
 
 
-from utilitariosCV_exercicio_110 import  Moeda
+import  Moeda
 
 valor = int(input('Digite um valor: '))
 Moeda.resumo(valor, 80, 35)
