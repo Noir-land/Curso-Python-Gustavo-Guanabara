@@ -5,7 +5,7 @@ Transfira todas as funções utilizadas nos desafios 107, 108, 109 e 110 para o 
 
 
 from utilitariosCV.dados import leia_dinheiro
-from utilitariosCV.Moeda import resumo
+from utilitariosCV.moeda import resumo
 
 valor = leia_dinheiro('Digite um valor: ')
 resumo(valor, 80, 35)
