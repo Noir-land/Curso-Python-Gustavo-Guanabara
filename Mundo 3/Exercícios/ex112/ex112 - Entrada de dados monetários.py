@@ -5,8 +5,8 @@ mas com uma validação de dados para aceitar apenas valores que sejam monetári
 """
 
 
-from utilitariosCV_exercicio_110.dados import leia_dinheiro
-from utilitariosCV_exercicio_110.Moeda import resumo
+from utilitariosCV.dados import leia_dinheiro
+from utilitariosCV.moeda import resumo
 
 valor = leia_dinheiro('Digite um valor: ')
 resumo(valor, 80, 35)
